@@ -1,3 +1,124 @@
-/* Your Styles Here */
-body{
+/* Basic Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #001f3f; /* Navy Blue */
+  color: #ffd700; /* Gold */
+  padding: 10px 0;
+  text-align: center;
+  animation: slideIn 1s ease-out;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+  animation: fadeIn 2s ease-in;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.bio-block {
+  text-align: center;
+  margin-bottom: 40px;
+  animation: fadeInUp 1.5s ease-in-out;
+}
+.about {
+  text-align: center;
+  margin-bottom: 40px;
+  animation: fadeInUp 1.5s ease-in-out;
+}
+
+h2 {
+  color: #001f3f; /* Navy Blue */
+  font-size: 2em;
+  border-bottom: 2px solid #001f3f; /* Navy Blue */
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  animation: fadeIn 2s ease-in;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+/* Bio Block Animation */
+.bio-block {
+  background-color: #ffd700; /* Gold */
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  color: #001f3f; /* Navy Blue */
+  animation: zoomIn 1.5s ease-in-out;
+}
+
+.bio-block p {
+  font-size: 1.3em;
+  line-height: 1.8;
+  margin: 0;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  max-height: 500px;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes zoomIn {
+  from {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
