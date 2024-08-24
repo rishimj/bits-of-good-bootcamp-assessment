@@ -1,4 +1,3 @@
-/* Basic Styles */
 body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
@@ -8,8 +7,8 @@ body {
 }
 
 header {
-  background-color: #001f3f; /* Navy Blue */
-  color: #ffd700; /* Gold */
+  background-color: #001f3f;
+  color: #ffd700;
   padding: 10px 0;
   text-align: center;
   animation: slideIn 1s ease-out;
@@ -39,9 +38,9 @@ header h1 {
 }
 
 h2 {
-  color: #001f3f; /* Navy Blue */
+  color: #001f3f;
   font-size: 2em;
-  border-bottom: 2px solid #001f3f; /* Navy Blue */
+  border-bottom: 2px solid #001f3f;
   padding-bottom: 10px;
   margin-bottom: 20px;
   animation: fadeIn 2s ease-in;
@@ -52,13 +51,12 @@ p {
   line-height: 1.6;
 }
 
-/* Bio Block Animation */
 .bio-block {
-  background-color: #ffd700; /* Gold */
+  background-color: #ffd700;
   padding: 20px;
   border-radius: 10px;
   text-align: center;
-  color: #001f3f; /* Navy Blue */
+  color: #001f3f;
   animation: zoomIn 1.5s ease-in-out;
 }
 
@@ -82,7 +80,6 @@ img {
   max-height: 500px;
 }
 
-/* Animations */
 @keyframes fadeIn {
   from {
     opacity: 0;
